@@ -10,15 +10,11 @@ This project was developed as part of my **Frontend Development Internship (Leve
 
 ### Home Page
 
-```
-images/home.png
-```
+![Home Page](images/home.png)
 
 ### Lighthouse Report
 
-```
-images/lighthouse.png
-```
+![Lighthouse Report](images/lighthouse.png)
 
 ---
 
