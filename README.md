@@ -1,16 +1,152 @@
-# React + Vite
+# 🚀 MotionTask – Performance Optimized Task Manager
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+MotionTask is a modern and responsive task management application built with **React** and **Vite**. It allows users to manage daily tasks efficiently while demonstrating modern frontend development practices and performance optimization techniques.
 
-Currently, two official plugins are available:
+This project was developed as part of my **Frontend Development Internship (Level 3 - Task 2: Performance Optimization)**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 📸 Preview
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Home Page
 
-## Expanding the Oxlint configuration
+```
+images/home.png
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+### Lighthouse Report
+
+```
+images/lighthouse.png
+```
+
+---
+
+## ✨ Features
+
+* ✅ Add new tasks
+* ✅ Delete tasks
+* ✅ Mark tasks as completed
+* ✅ Persistent storage using Local Storage
+* ✅ Responsive user interface
+* ✅ Clean and modern design
+* ✅ Fast production build with Vite
+
+---
+
+## ⚡ Performance Optimizations
+
+This project focuses on improving frontend performance using React best practices.
+
+### Optimizations Implemented
+
+* React.memo for reducing unnecessary component re-renders
+* useMemo for memoizing expensive calculations
+* useCallback for optimizing callback functions
+* React.lazy for code splitting
+* Suspense for lazy-loaded components
+* Local Storage for persistent task management
+* Production build optimization using Vite
+* Lighthouse performance testing
+
+---
+
+## 📊 Lighthouse Scores
+
+| Metric           | Score |
+| ---------------- | ----: |
+| 🚀 Performance   |    99 |
+| ♿ Accessibility  |   100 |
+| ✅ Best Practices |   100 |
+| 🔍 SEO           |    91 |
+
+---
+
+## 🛠️ Technologies Used
+
+* React
+* Vite
+* JavaScript (ES6+)
+* CSS3
+* HTML5
+* Framer Motion
+* Local Storage API
+
+---
+
+## 📂 Project Structure
+
+```
+motion-task/
+│
+├── public/
+├── src/
+│   ├── assets/
+│   ├── components/
+│   ├── hooks/
+│   ├── pages/
+│   ├── styles/
+│   ├── App.jsx
+│   └── main.jsx
+│
+├── package.json
+├── vite.config.js
+└── README.md
+```
+
+---
+
+## 🚀 Getting Started
+
+### Clone the repository
+
+```bash
+git clone <repository-url>
+```
+
+### Navigate to the project
+
+```bash
+cd motion-task
+```
+
+### Install dependencies
+
+```bash
+npm install
+```
+
+### Start the development server
+
+```bash
+npm run dev
+```
+
+### Create a production build
+
+```bash
+npm run build
+```
+
+### Preview the production build
+
+```bash
+npm run preview
+```
+
+---
+
+## 🎯 Learning Outcomes
+
+Through this project, I gained practical experience with:
+
+* Building applications using React and Vite
+* Component-based architecture
+* State management with React Hooks
+* Performance optimization techniques
+* Code splitting and lazy loading
+* Local Storage integration
+* Lighthouse auditing and optimization
+* Git and GitHub workflow
+
+---
